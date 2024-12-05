@@ -8,3 +8,9 @@ datasets:
       file_format: parquet
     acceleration:
       enabled: false
+  - from: s3://spiceai-demo-datasets/tpch/nation/
+    name: nation
+    params:
+      file_format: parquet
+    acceleration:
+      enabled: false
